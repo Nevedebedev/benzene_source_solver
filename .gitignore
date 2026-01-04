@@ -1,0 +1,14 @@
+# Exclude large files and directories
+*.png
+*.jpg
+*.jpeg
+*.gif
+snapshots/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Exclude large data files (keep only essential .npz files)
+*.npz.bak
+*~
